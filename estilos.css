@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+.lila{
+    background-color: violet;
+    padding: 50px 0px;
+}
+
+.blanco{
+    padding: 50px 0px;
+}
+
+.centrado{
+    width: 900px;
+    margin: auto;
+}
+.centrado img{
+    width: 33%;
+}
+
+.footer{
+    background-color: slateblue;
+    padding: 20px 0px;
+    color: snow;
+}
+
+.profile{
+    width:500px;
+    height:500px;
+    border-radius: 250px;
+}
