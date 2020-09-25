@@ -1,5 +1,18 @@
 body {
     text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h2{
+    padding: 5px;
+}
+
+.lila h2:hover{
+    color: white;
+}
+
+.blanco h2:hover{
+    color: violet;
 }
 
 .lila{
@@ -8,16 +21,46 @@ body {
 }
 
 .blanco{
-    /*padding: 50px 0px;*/
     padding: 50px 0px;
 }
 
-.centrado{
-    width: 900px;
-    margin: auto;
-}
+
 .centrado img{
-    width: 33%;
+    margin: 10px;
+    width: 20%;
+   border: 3px solid white;
+}
+
+.centrado img:hover{
+    transform: scale(1.2);
+}
+
+label{
+    color: #ffedfb;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 10%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+button:hover{
+    border: 1px solid white;
+    background-color: #de66c6;
+    color: white ;
+}
+
+#direccion{
+    border: 5px dashed white;
+    color: white;
 }
 
 .footer{
