@@ -13,8 +13,16 @@ h2{
     color: palevioletred;
 }
 
+a:hover{
+    color: white;
+}
+
 .blanco h2:hover{
     color: violet;
+}
+
+.profile:hover{
+    transform: rotate(180deg);
 }
 
 .lila{
