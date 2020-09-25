@@ -33,6 +33,7 @@ h2{
 
 .centrado img:hover{
     transform: scale(1.2);
+    box-shadow: 10px 10px 10px grey;
 }
 
 label{
